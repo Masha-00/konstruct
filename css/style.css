@@ -103,8 +103,6 @@ nav{
     cursor: pointer;
     display: none;
 }
-
-
 /*our story*/
 .our_story{
     padding: 5% 0%;
@@ -206,6 +204,12 @@ nav{
     border-color: transparent;
     margin-left: 3%;
 }
+.all_services:hover{
+    background-color: #fff;
+    color:#00A4E5;
+    border: 2px solid #00A4E5;
+    transition: 0.5s;
+}
 .capabilities_card{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -213,6 +217,11 @@ nav{
 .capabilities_card_items{
     border: 1px solid #E6E6E6;
     padding: 10%;
+}
+.capabilities_card_items:hover{
+    border: 2px solid #00A4E5;
+    background-color: #fff;
+    transition: 0.5s;
 }
 .capab_2{
     margin: 0% 7%;
@@ -285,7 +294,7 @@ nav{
 .sing_up{
     margin-left: 0;
     height: 46px;
-    border-color: none;
+    border: none;
 }
 /*footer top*/
 .footer{
@@ -318,6 +327,10 @@ nav{
     display: block;
     text-transform: uppercase;
 }
+.link_footer:hover, .contact_info:hover{
+    color: #00A4E5;
+    transition: 0.3s;
+}
 .contactus_address{
     font-weight: 400;
     font-size: 11px;
@@ -332,6 +345,7 @@ nav{
     line-height: 16px;
     letter-spacing: 0.846154px;
 }
+
 .rgt_link{
     padding-right: 20%;
 }
